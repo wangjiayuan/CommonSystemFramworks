@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "CommonSystemFramworks", "Classes/**/*.{h,m}"
-  s.exclude_files = "CommonSystemFramworks/Exclude"
+  s.exclude_files = "CommonSystemFramworks/TestProject"
 
   # s.public_header_files = "Classes/**/*.h"
 
