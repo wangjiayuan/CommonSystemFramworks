@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "CommonSystemFramworks"
   s.version      = "0.0.1"
-  s.summary      = "A short description of CommonSystemFramworks."
+  s.summary      = "包含经常会使用到的系统Frameworks"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+		   use for relation system framworks and just for pod test
                    DESC
 
   s.homepage     = "https://github.com/wangjiayuan/"
@@ -38,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "LICENSE"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/CommonSystemFramworks.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/wangjiayuan/CommonSystemFramworks.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "CommonSystemFramworks", "Classes/**/*.{h,m}"
+  s.exclude_files = "CommonSystemFramworks/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
